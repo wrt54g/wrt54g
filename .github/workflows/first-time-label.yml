@@ -1,7 +1,0 @@
-- name: First label interaction
-  steps:
-  -   uses: Code-Hex/first-label-interaction@v1.0.2
-  with:
-    github-token: ${{ secrets.GITHUB_TOKEN }}
-    issue-labels: '["first-time-contributor"]'
-    pr-labels: '["first-time-contributor"]'
